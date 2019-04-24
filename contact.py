@@ -12,7 +12,6 @@ def save_contact(**kwargs):
     arquivo.flush()
     arquivo.close()
 
-'banana,maça,morango'.split(',')
 
 amount = input("How many contacts do you want to register? ")
 amount = int(amount)
